@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('../partials/head', { title: 'Detalle del producto' }) %>
+
+<body>
+  <%- include('../partials/header') %>
+
+  <main>
+    <section class="product-detail">
+      <img src="<%= product.image %>" alt="<%= product.name %>">
+      <div>
+        <h2><%= product.name %></h2>
+        <p><strong>Precio:</strong> $<%= product.price %></p>
+        <p><%= product.description %></p>
+        <form action="/cart/add/<%= product.id %>" method="POST">
+          <button type="submit" class="btn">Agregar al carrito</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <%- include('../partials/footer') %>
+</body>
+
+</html>

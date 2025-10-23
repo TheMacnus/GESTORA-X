@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('../partials/head', { title: 'Iniciar sesión' }) %>
+
+<body>
+  <%- include('../partials/header') %>
+
+  <main>
+    <h2>Iniciar sesión</h2>
+    <form action="/users/login" method="POST" class="form">
+      <input type="text" name="nombre" placeholder="Nombre:" required>
+      <input type="text" name="apellido" placeholder="Apellido:" required>
+      <button type="submit" class="btn">Ingresar</button>
+    </form>
+  </main>
+
+  <%- include('../partials/footer') %>
+</body>
+
+</html>

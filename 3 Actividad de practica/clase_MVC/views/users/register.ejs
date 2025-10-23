@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('../partials/head', { title: 'Registro de usuario' }) %>
+
+<body>
+  <%- include('../partials/header') %>
+
+  <h1>Nuevo registro</h1>
+
+  <h2>Completar datos</h2>
+
+
+  <form class="register" action="/users/register" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido">
+    <label for="edad">Edad:</label>
+    <input type="text" name="edad" id="edad">
+    <button type="submit">Guardar</button>
+  </form>
+
+  <%- include('../partials/footer') %>
+</body>
+
+</html>

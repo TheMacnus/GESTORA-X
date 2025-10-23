@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <%- include('partials/head', { title: title }) %>
+  <body>
+    <%- include('partials/header') %>
+
+    <main class="not-found">
+      <div class="error-container">
+        <h1>404</h1>
+        <h2><%= message %></h2>
+        <p>La página que intentas visitar no existe o ha sido movida.</p>
+
+        <a href="/" class="btn-home">Volver al inicio</a>
+      </div>
+    </main>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>

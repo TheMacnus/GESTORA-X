@@ -1,8 +1,8 @@
-# 📊 MICROGESTOR
+# 📊 GESTORA X
 
 **"La gestión simple que tu emprendimiento necesita."**
 
-MICROGESTOR es un sistema de gestión simple, accesible y escalable, diseñado especialmente para **microemprendedores en América Latina**.
+GESTORA X es un sistema de gestión simple, accesible y escalable, diseñado especialmente para **microemprendedores en América Latina**.
 El sistema permite administrar **ventas, inventario y clientes**, además de generar reportes básicos y exportar información a PDF y Excel.
 
 ---
@@ -10,7 +10,7 @@ El sistema permite administrar **ventas, inventario y clientes**, además de gen
 ## 📌 Temática del sitio
 
 Un **sistema de gestión administrativa (mini-ERP)** enfocado en resolver los problemas de los pequeños negocios que actualmente dependen de cuadernos o Excel.
-MICROGESTOR ofrece una solución intuitiva, de bajo costo y pensada para personas sin conocimientos técnicos.
+GESTORA X ofrece una solución intuitiva, de bajo costo y pensada para personas sin conocimientos técnicos.
 
 ---
 
@@ -35,14 +35,14 @@ MICROGESTOR ofrece una solución intuitiva, de bajo costo y pensada para persona
 
 ## 🚀 Tecnologías utilizadas
 
-- **Frontend**: React.js (interfaz web).
+- **Frontend**: React.js + Next.js + Tailwind (interfaz web).
 <p>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=react"/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=react,nextjs,tailwind"/>
 </p>
 
-- **Backend**: Node.js con Express + JWT para autenticación.
+- **Backend**: Node.js + Express + JWT para autenticación + Prisma.
 <p>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,expressjs,jwt"/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,expressjs,jwt,prisma"/>
 </p>
 
 - **Base de datos**: MySQL.
@@ -84,8 +84,6 @@ Proyecto desarrollado por estudiantes de **Ingeniería de Sistemas – Unisangil
 - [Dario Enrique Pulgarin Ramirez](https://github.com/Dariopul)
 - [Sofia Alejandra Bacca Melo](https://github.com/SofiaBacca)
 - [Diego Alejandro](https://github.com/IngeAlejo)
-- [Daniel Felipe Martínez Valbuena](https://github.com/DanielMartinez221)
-- [Andrés Alejandro Lancheros Lesmes](https://github.com/Andrés_Alejandro_Lancheros_Lesmeso_no_tiene_cuenta_de_GitHub)
 
 ---
 
@@ -97,5 +95,5 @@ Consulte el archivo [LICENSE](LICENSE) para obtener más información. -->
 
 ## 🎉 ¡Gracias por visitar nuestro proyecto!
 <div row align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Microgestor Logo" width=100% height="300"/>
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="GESTORA X Logo" width=100% height="300"/>
 </div>
